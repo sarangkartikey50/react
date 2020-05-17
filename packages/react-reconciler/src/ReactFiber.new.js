@@ -214,6 +214,7 @@ const createFiber = function(
   mode: TypeOfMode,
 ): Fiber {
   // $FlowFixMe: the shapes are exact here but Flow doesn't like constructors
+  console.debug('Yay! This sarangkartikey50/react is working.');
   return new FiberNode(tag, pendingProps, key, mode);
 };
 
